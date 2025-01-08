@@ -1,6 +1,6 @@
 #!/bin/sh
 DATA_DIR="$HOME/.cache/matrix-commander"    # Directory on the host to store credentials and other data
-IMAGE="matrixcommander/matrix-commander"    # Docker image to use
+IMAGE="garo/matrix-commander"    # Docker image to use
 INTERACTIVE="false" # Default setting when --interactive or --pipes is not specified
 
 if [ ! -d "$DATA_DIR" ]; then
